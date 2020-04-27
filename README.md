@@ -20,11 +20,11 @@ We are not using many environemnt variables for now, meaning you have to manuall
 2. Create and migrate the database with `mix ecto.setup`
 3. Start the Phoenix server with `iex -S mix phx.server`
 
-### Verify
+### Test the solution
 
-Enter on http://localhost:4000/v1/graphiql and import this workspace (https://gist.github.com/marinho10/cdb0814eea1ad1aba9b8faa2048d67aa).
+Open the [GraphiQL Interface](http://localhost:4000/v1/graphiq) and import [this workspace] (https://gist.github.com/marinho10/cdb0814eea1ad1aba9b8faa2048d67aa).
 
-1. Run "mutation - accountsLogin"
-2. Run "query - accountsMe" and copy token returned
-3. Change ws url token on "subscription - accountsUserCount" and run
-4. Verify "accountsUserCount" value changing every 10 seconds on "subscription - accountsUserCount"
+1. Run the "mutation - accountsLogin"
+2. Run the "query - accountsMe" and copy the token returned
+3. Change the ws url token on "subscription - accountsUserCount" and run the query
+4. Verify "accountsUserCount" value changing every 10 seconds on the result pannel
