@@ -1,4 +1,4 @@
-# PhoenixAbsintheAuthenticatedSubscriptions
+# Phoenix Absinthe Authenticated Subscriptions
 
 Phoenix absinthe authenticated subscriptions article
 
